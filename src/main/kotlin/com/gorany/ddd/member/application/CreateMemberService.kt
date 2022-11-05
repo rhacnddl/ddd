@@ -4,5 +4,5 @@ import com.gorany.ddd.member.ui.request.RequestCreateMember
 
 interface CreateMemberService {
 
-    fun signup(request: RequestCreateMember): MemberId
+    fun signup(request: RequestCreateMember): Long
 }

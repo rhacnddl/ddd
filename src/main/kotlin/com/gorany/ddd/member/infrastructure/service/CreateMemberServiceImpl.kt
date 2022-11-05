@@ -3,7 +3,7 @@ package com.gorany.ddd.member.infrastructure.service
 import com.gorany.ddd.member.application.CreateMemberService
 import com.gorany.ddd.member.application.DuplicatedMemberException
 import com.gorany.ddd.member.domain.Member
-import com.gorany.ddd.member.domain.MemberMapper
+import com.gorany.ddd.member.infrastructure.MemberMapper
 import com.gorany.ddd.member.domain.repository.MemberRepository
 import com.gorany.ddd.member.ui.request.RequestCreateMember
 import org.springframework.stereotype.Service

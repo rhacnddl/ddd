@@ -1,5 +1,6 @@
-package com.gorany.ddd.member.domain
+package com.gorany.ddd.member.infrastructure
 
+import com.gorany.ddd.member.domain.Member
 import com.gorany.ddd.member.infrastructure.entity.MemberJpaEntity
 
 object MemberMapper {
@@ -9,7 +10,7 @@ object MemberMapper {
     )
 
     fun mapToDomainEntity(jpaEntity: MemberJpaEntity) = Member(
-        MemberId(0L),
+        0L,
         "",
         ""
     )
