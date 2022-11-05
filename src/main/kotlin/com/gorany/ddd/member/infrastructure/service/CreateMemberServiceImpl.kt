@@ -5,7 +5,7 @@ import com.gorany.ddd.member.application.DuplicatedMemberException
 import com.gorany.ddd.member.domain.Member
 import com.gorany.ddd.member.domain.MemberMapper
 import com.gorany.ddd.member.domain.repository.MemberRepository
-import com.gorany.ddd.member.ui.dto.request.RequestCreateMember
+import com.gorany.ddd.member.ui.request.RequestCreateMember
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 

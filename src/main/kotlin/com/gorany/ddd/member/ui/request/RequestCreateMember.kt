@@ -1,4 +1,4 @@
-package com.gorany.ddd.member.ui.dto.request
+package com.gorany.ddd.member.ui.request
 
 data class RequestCreateMember(
     val username: String,

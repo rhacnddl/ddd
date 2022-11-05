@@ -1,6 +1,6 @@
 package com.gorany.ddd.member.application
 
-import com.gorany.ddd.member.ui.dto.request.RequestCreateMember
+import com.gorany.ddd.member.ui.request.RequestCreateMember
 
 interface CreateMemberService {
 

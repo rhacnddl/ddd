@@ -1,7 +1,7 @@
 package com.gorany.ddd.member.ui
 
 import com.gorany.ddd.member.application.CreateMemberService
-import com.gorany.ddd.member.ui.dto.request.RequestCreateMember
+import com.gorany.ddd.member.ui.request.RequestCreateMember
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.http.HttpStatus

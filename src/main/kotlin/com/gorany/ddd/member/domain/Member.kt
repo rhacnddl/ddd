@@ -1,7 +1,7 @@
 package com.gorany.ddd.member.domain
 
 import com.gorany.ddd.member.application.InvalidPasswordException
-import com.gorany.ddd.member.ui.dto.request.RequestCreateMember
+import com.gorany.ddd.member.ui.request.RequestCreateMember
 
 data class Member(
     val id: Long,
