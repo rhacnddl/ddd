@@ -6,7 +6,9 @@ import com.gorany.ddd.member.infrastructure.entity.MemberJpaEntity
 object MemberMapper {
 
     fun mapToJpaEntity(entity: Member) = MemberJpaEntity(
-
+        id = entity.id,
+        username = entity.username,
+        password = entity.password
     )
 
     fun mapToDomainEntity(jpaEntity: MemberJpaEntity) = Member(
