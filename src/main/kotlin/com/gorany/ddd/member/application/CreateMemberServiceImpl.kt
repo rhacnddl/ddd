@@ -1,4 +1,4 @@
-package com.gorany.ddd.member.infrastructure.service
+package com.gorany.ddd.member.application
 
 import com.gorany.ddd.member.application.CreateMemberService
 import com.gorany.ddd.member.application.DuplicatedMemberException
